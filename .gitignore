@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Demo.DotNetCoreAPI.CORS/CORSTestApp/bin/Debug/netcoreapp3.1
+/Demo.DotNetCoreAPI.CORS/Demo.DotNetCoreAPI.CORS/.vs/Demo.DotNetCoreAPI.CORS
+/Demo.DotNetCoreAPI.CORS/Demo.DotNetCoreAPI.CORS/bin/Debug/netcoreapp3.1
+/Demo.DotNetCoreAPI.CORS/Demo.DotNetCoreAPI.CORS/obj
+/Demo.DotNetCoreAPI.CORS/CORSTestApp/obj

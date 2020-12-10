@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            console.log("document loaded");
+            $.get('http://localhost:5000/weatherforecast', function (data) {
+                console.log(data);
+                $(".inner").append(JSON.stringify(data));
+            });
+        });
+
+        $(window).on("load", function () {
+            console.log("window loaded");
+        });
+    </script>
+    <meta charset="utf-8" />
+    <title></title>
+
+</head>
+<body>
+    <b>Weather data from API</b>
+    <div class="inner">
+    </div>
+</body>
+
+</html>
